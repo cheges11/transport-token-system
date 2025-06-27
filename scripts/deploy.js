@@ -1,10 +1,7 @@
-// Enhanced deployment script for transport token system
+// Enhanced deployment script
 const CONTRACT_NAME = 'public-transport-token';
 const NETWORK = 'testnet';
 
-console.log(`Deploying enhanced ${CONTRACT_NAME} to ${NETWORK}...`);
-
-// Enhanced deployment configuration
 const config = {
   contractName: CONTRACT_NAME,
   network: NETWORK,
@@ -12,4 +9,5 @@ const config = {
   enhancedVoting: true
 };
 
+console.log(`Deploying enhanced ${CONTRACT_NAME} to ${NETWORK}...`);
 module.exports = config;
